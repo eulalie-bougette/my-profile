@@ -1,0 +1,83 @@
+ /* Colors and fonts*/
+
+ body {
+ 	background-color:rgb(209, 209, 209);
+ 	color: rgb(255, 255, 255);
+ 	font-size: 17px;
+ 	font-family: Arial;
+}
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	letter-spacing: 20px;
+	font-weight: bold;
+	font-family: 'Libre Baskerville', serif; 
+
+}
+h2 {
+	letter-spacing: 20px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+a:hover {
+	color: (0, 0, 0,);
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto; 
+}
+
+.card-grey {
+	background-color: grey; 
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px; 
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%; 
+}
+
+.btn-black {
+	background-color: black;
+	color: white; 
+	padding: 15px 20px; 
+	border-radius: 4px; 
+}
+.btn-black:hover {
+	background-color: red;
+	color: white; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: initial;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 120px
+	color: black;
+}
+.list-inline i:hover {
+	color: red; 
+}
+#introduction p {
+	margin-bottom: 40px
+}
+
+
+
